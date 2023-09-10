@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <h1><span class="a-letter">A</span>MRUTH <span class="k-letter">K</span>AGINAKAR.</h1>
+              <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+              </ul> 
+              <i class="fas fa-bars" onclick="openmenu()"></i> 
+            </nav>
+       
+        
+            <div class="header-text">
+                <p><strong>Web Developer</strong></p>
+                <h3>Hi, I'm <span>Amruth Kaginakar</span><br>Full-Stack Web Developer</h3>
+                <h6><em>I'm a web developer with in-depth experience in web design. I create websites that help organizations address business challenges and meet their needs. I manage everything from website navigation and layout to a company's web hosting and security architucture.</em></h6>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               
+               <img src="background.png">
+
+            </div>
+            <div class="about-col-2">
+                <h1  class="sub-title">About Me</h1>
+                <p>Hello, my name is AMRUTH KAGINAKAR. As a dedicated and ambitious student, I bring a strong commitment to learning and a passion for personal growth. Although I may not have formal work experience, I have actively pursued opportunities to develop my skills and expand my knowledge in various areas. In addition to my academic pursuits, I have actively engaged in extracurricular activities. These experiences have allowed me to develop important transferable skills such as teamwork, leadership, and communication. Moreover, I have proactively sought out opportunities to enhance my knowledge and skills through online courses and self-study. Although these experiences may not have resulted in formal certifications, they have provided me with valuable insights and practical knowledge. I am eager to contribute my dedication, and enthusiasm to a team environment, and to learn from experienced professionals who can mentor and guide me. I am excited about the opportunities that lie ahead and the chance to make a positive impact on the organizations I work with.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Websites</li>
+                        <li><span>Programming Language</span><br>Python, Javascript, Java(Basic).</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>Website</span><br>Designed Amazon Website</li>
+                        <li><span>Personal Portfolio</span><br>My Website</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>The Presidency Public School</li>
+                        <li><span>2018-2020</span><br>Vidyanidhi Independent PU College</li>
+                        <li><span>2020-2024</span><br>Don Bosco Institute of Technology,Bangalore<br>Computer Science Engineering (CSE) Branch</li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+    </div>
+   </div>
+  <!-----services---->
+       <div id="services">
+        <div class="container">
+            <h1  class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>At our web design agency, we fuse creativity and functionality to craft captivating online experiences. Through user-centric designs, seamless responsiveness, and interactive elements, we convey brand essence while driving growth. Elevate your digital presence with our innovative solutions that captivate, engage, and convert.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>At our web design agency, we fuse creativity and functionality to craft captivating online experiences. Through user-centric designs, seamless responsiveness, and interactive elements, we convey brand essence while driving growth. Elevate your digital presence with our innovative solutions that captivate, engage, and convert.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+       </div>
+
+<!------------------- Portfolio -------------> 
+        <div id="portfolio">
+           <div class="container">
+             <h1  class="sub-title">My work-list</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image4.jpg">
+                        <div class="layer">
+                            <h3>Social Media Website</h3>
+                            <p>Global platform enabling instant content sharing, interaction, and networking. Profiles, posts, comments connect users, revolutionizing communication and community building.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="image20.jpg">
+                        <div class="layer">
+                            <h3>Online Shopping Website</h3>
+                            <p>Global platform enabling instant content sharing, interaction, and networking. Profiles, posts, comments connect users, revolutionizing communication and community building.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div> 
+                </div>
+                <a href="#" class="btn">See More</a>
+               </div>
+          </div>
+         
+    <!-------------contact-------------->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> amruthsantu@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 7483264856</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/amruth-kaginakar-84280125a"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/amruth.kaginakar.1?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://instagram.com/rocky_amruth?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="C:\Users\amrut\Desktop\Amruth resume.pdf" class="btn btn2"> Download CV   <i class="fa-solid fa-file-arrow-down fa-beat-fade"></i></a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>2023 <i class="fa-regular fa-copyright"></i> Copyright @Personal Portfolio. All Rights Reserved.<br> This site is hosted by Amruth Kaginakar.</p>
+        </div>
+       </div>
+       <a href="#" class="top"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+
+      //test
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+   </script>
+
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby3r2nL6byPGc-SpoX8EQvaA0srnxJT9koH8AdvFU_ovmKAxGJt8yYT4kt-B7V7RcLr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
